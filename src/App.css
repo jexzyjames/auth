@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.wrapper{
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+
+  h1{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+}
+form{
+  margin: 10px ;
+  position: relative;
+  width: 100%;
+
+  label{
+    display: block;
+    color: rgb(21,23,29);
+    margin-bottom: 3px;
+    text-align: left;
+  }
+  input{
+    width: 87%;
+    margin:auto;
+    padding: 8px ;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    outline: none !important;
+    background-color: transparent;
+  }
+  input[type='checkbox']{
+    display: flex;
+    cursor: pointer;
+    margin: 0;
+    width: 15px !important;
+  }
+  input[type='submit']{
+    text-align: center;
+    cursor: pointer;
+    width: 94% !important;
+    color: #1e242f !important;
+  }
+  b{
+    display: flex;
+    text-align: center;
+    gap:10px;
+    width: 100%;
+  }
+  div{
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 3px;
+    width: 91%;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fbfcfd;
+  }
+  div:hover{
+    background-color:#9bc0c2 ;
+
+  }
+  h3, p{
+    text-align: center;
+    margin: 0;
+  }
+}
+.loader{
+  width: 20px;
+  background-color: transparent !important;
+  border: 0;
+  text-align: center;
+  align-items: center;
+  padding:  0;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+
+
+}
+
